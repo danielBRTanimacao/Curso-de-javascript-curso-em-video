@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio</title>
+        <style>
+            body {
+                font: normal 20pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var name = window.prompt('Qual e o seu nome?')
+            document.write(`Olá, <strong>${name}</strong>. Seu nome tem ${name.length} letras<br/>`)
+            document.write(`Seu nome em maiusculo é <strong>${name.toUpperCase()}</strong><br/>`)
+            document.write(`Seu nome em minusculo é <strong>${name.toLowerCase()}</strong><br/>`)
+            document.write(`O tipo da variavel ${name} é <strong>${typeof name}</strong>`)
+        </script>
+    </body>
+</html>
