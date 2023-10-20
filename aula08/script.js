@@ -30,7 +30,10 @@
 // && CONJUNÇÃO 
 // || DISJUNÇÕES
 
-var a = 5
-var b = 8
-console.log(a > b && b % 2 == 0) // primeiro são os operadores aritimeticos
-console.log(a <= b || b / 2 == 0)
+// var a = 5
+// var b = 8
+// console.log(a > b && b % 2 == 0) // primeiro são os operadores aritimeticos
+// console.log(a <= b || b / 2 == 0)
+// OPERADOR TERNARIO
+// ? :
+// teste ? true : false
