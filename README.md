@@ -1,13 +1,13 @@
 # Curso javascript curso em video
 
  exercicios e algumas aulas do curso de JavaScript do curso em vídeo
-
-
  
 # Curso de JavaScript
 
 * [GitHub Gustavo Guanabara](https://github.com/gustavoguanabara).
 * [Canal Gustavo Guanabara](https://www.youtube.com/@CursoemVideo).
+
+<img src="imagens/git_gustavo.png" height=200px>
 
 ## ----> abaixo está o readme do curso de JavaSscript
 
