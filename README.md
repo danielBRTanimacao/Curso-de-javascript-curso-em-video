@@ -5,7 +5,7 @@
 # Curso de JavaScript
 
 * GitHub gustavo guanabara
-* Canal no youtube gustavo
+* [Canal Gustavo Guanabara](https://www.youtube.com/@CursoemVideo).
 
 ## ----> abaixo está o readme do curso de JavaSscript
 
