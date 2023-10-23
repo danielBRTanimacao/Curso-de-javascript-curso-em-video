@@ -9,7 +9,7 @@
 
 <img src="imagens/git_gustavo.png" height=200px>
 
-## ----> abaixo está o readme do curso de JavaSscript
+## ----> abaixo está o readme do curso de JavaSscript recomendo acessar o curso no site official
 
 Material público para o ensino básico de JavaScript para alunos iniciantes. Acesse o material em PDF, analise o código disponibilizado para cada exercício e veja-os funcionando em execução direta via repositório GitHub.
 
