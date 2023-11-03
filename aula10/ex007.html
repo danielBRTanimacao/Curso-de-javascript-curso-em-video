@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM eventos</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+        }
+
+        input {
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+        div#res {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando valores</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="sum()">
+    <div id="res">
+        Resultado
+    </div>
+
+    <script>
+        function sum() {
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.querySelector('input#txtn2') // maneira diferente
+            var res = window.document.getElementById('res')
+
+            var number1 = Number(tn1.value)
+            var number2 = Number(tn2.value) //tem o parseINt
+
+            var result = number1 + number2
+
+            res.innerHTML = `A soma entre ${number1} e ${number2} é igual a: <strong>${result}</strong>`
+        }
+    </script>
+</body>
+</html>
