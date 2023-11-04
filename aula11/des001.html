@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio aula</title>
+</head>
+<body>
+    <h1>Diga seu pais abaixo</h1>
+    <input type="text" name="textpais" id="textpais">
+    <input type="button" value="enviado" onclick="pais()">
+    <div id="text-resul">
+
+    </div>
+    <script>
+        function pais() {
+            var pais_digitado = document.getElementById('textpais')
+            console.log(pais_digitado)
+            var div_text = document.getElementById('text-resul')
+
+            if (pais_digitado.value != 'Brasil') {
+                div_text.innerHTML = 'Você e estrangeiro!'
+            } else {
+                div_text.innerHTML = 'Você e um dos nossos BRASIL'
+            }
+        }
+    </script>
+</body>
+</html>
