@@ -1,23 +1,13 @@
-function contador() {
-    var inicio = document.querySelector('input#inicio')
-    var fim = document.querySelector('input#fim')
-    var passo = document.querySelector('input#passo')
-    var msg = document.querySelector('div#resultado-contagem')
-    var num_init = Number(inicio.value)
-    var num_final = Number(fim.value)
-    var pass = Number(passo.value)
+function numeroAdict() {
+    let text_number = document.querySelector('input#txtnum')
+    let number_config = Number(text_number.value)
+    let numbers_array = []
 
-    if (num_init == 0) {
-        msg.innerHTML = 'Não e possivel contar tente de novo!'
-    } else if (pass == 0) {
-        window.alert('Não e possivel começar por 0 logo começaram por 1')
-        passo.value = 1
+    if (number_config > 100 || number_config < 1) {
+        window.alert('Por favor digite um número entre 1 ate 100!')
+    } else if (text_number.value.length == 0) {
+        window.alert('Por favor digite um número')
     } else {
-        msg.innerHTML = 'Contando:<br>'
-        msg.innerHTML = `${num_init} `
-        while (num_init <= num_final) {
-            num_init += pass
-            msg.innerHTML += `${num_init} `
-        }
+        numbers_array.push(`O número é ${number_config}`)
     }
 }

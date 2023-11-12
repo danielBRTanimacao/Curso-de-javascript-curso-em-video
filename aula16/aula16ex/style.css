@@ -9,14 +9,11 @@ header, footer {
 }
 
 div {
-    text-align: left;
     padding: 8px;
 }
 
-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+select {
+    width: 150px;
 }
 
 section {
